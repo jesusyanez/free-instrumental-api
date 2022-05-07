@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const beatList = require("./scapedbeats.json");
 
 /**
  * GET product list.
@@ -9,8 +10,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   try {
     res.json({
-      status: 200,
-      message: "Get data has successfully",
+      0: beatList[Math.floor(Math.random()*beatList.length)],
     });
   } catch (error) {
     console.error(error);
