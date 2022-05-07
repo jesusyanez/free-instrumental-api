@@ -1,6 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const beats = require('./api/beats');
 const app = express();
+
+app.use(cors());
 
 const PORT = process.env.PORT || 5050;
 
