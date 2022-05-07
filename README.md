@@ -9,7 +9,7 @@ For those "give me a beat" moments, you know.
 
 
 
-## What it do
+## What it do (example)
 ### Request
 https://free-rap-beat-api.vercel.app/api/beats
 
@@ -48,4 +48,4 @@ https://free-rap-beat-api.vercel.app/api/beats
 - Clean up data to reduce response time
 
 #### Disclaimer
-I do not own any of the content, but it is public on youtube.
+I do not own any of the content. It is publicly posted on YouTube.
