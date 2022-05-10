@@ -2,14 +2,14 @@
 A free API that returns YouTube rap beats.
 
 ## About
-I made this for my random beat website.
-For those "give me a beat" moments, you know.
+I made this for my random instrumental website.
+For those "give me a beat" moments.
 
-<p>It's totally free, go ahead and try it. I hope you have fun & make something cool.</p>
+<p>I made it free so anyone that is learning can use it. I hope you have fun & make something cool.</p>
 
 
 
-## What it do (example)
+## Example
 ### Request
 https://free-rap-beat-api.vercel.app/api/beats
 
@@ -46,6 +46,3 @@ https://free-rap-beat-api.vercel.app/api/beats
 ## To-Do
 - I plan on adding more routes and queries
 - Clean up data to reduce response time
-
-#### Disclaimer
-I do not own any of the content. It is publicly posted on YouTube.
