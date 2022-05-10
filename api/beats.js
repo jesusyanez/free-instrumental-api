@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const beatList = require("./scapedbeats.json");
+const beatList = require("./scrapedbeats.json");
 
 /**
  * GET product list.
