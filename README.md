@@ -1,18 +1,24 @@
-# Free Rap Beat API
-A free API that returns YouTube rap beats.
+# Free Instrumental API
 
-## About
-I made this for my random instrumental website.
-For those "give me a beat" moments.
+I made this for my random instrumental webapp.
+For when you're feeling lucky and need an instrumental.
 
-<p>I made it free so anyone that is learning can use it. I hope you have fun & make something cool.</p>
-
-
+<p>I made it free so anyone that is learning or is into really into music can use it.</p>
+<p>I hope you have fun & make something cool.</p>
+</br>
+<a href="https://instrumental.vercel.app/">
+  <p>Demo</p>
+ </a>
 
 ## Example
-### Request
+### Endpoint
+```
+/api/beats
+```
+### GET Request
+```
 https://free-rap-beat-api.vercel.app/api/beats
-
+```
 ### Response
 
 ```
