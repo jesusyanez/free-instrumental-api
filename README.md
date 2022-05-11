@@ -1,9 +1,6 @@
 # Free Instrumental API
 
-I made this for my random instrumental webapp.
-For when you're feeling lucky and need an instrumental.
-
-<p>I made it free so anyone that is learning or is into really into music can use it.</p>
+<p>It's free so anyone that is learning or is into really into music can use it.</p>
 <p>I hope you have fun & make something cool.</p>
 </br>
 <a href="https://instrumental.vercel.app/">
