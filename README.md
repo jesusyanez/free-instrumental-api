@@ -1,10 +1,13 @@
-# Free Instrumental API
+# [FREE] Type Beat (YouTube) API
 
-<p>It's free so anyone that is learning or is into really into music can use it.</p>
-<p>I hope you have fun & make something cool.</p>
+<p>It basically responds with youtube data of free type beats.</p>
+<p>It allows you to make cool embeds on your site with the data.</p>
 </br>
+<a href="https://free-rap-beat-api.vercel.app/api/beats">
+  <p>API Link (see what it does when you reload)</p>
+ </a>
 <a href="https://instrumental.vercel.app/">
-  <p>Demo</p>
+  <p>Demo - Click the roll the dice button for a new beat</p>
  </a>
 
 ## Example
@@ -12,11 +15,11 @@
 ```
 /api/beats
 ```
-### GET Request
+### HTTPS
 ```
-https://free-rap-beat-api.vercel.app/api/beats
+GET https://free-rap-beat-api.vercel.app/api/beats
 ```
-### Response
+### JSON Response
 
 ```
 {
@@ -41,11 +44,8 @@ https://free-rap-beat-api.vercel.app/api/beats
 
 ```
 
-## How to use
-1. Send GET/fetch request to https://free-rap-beat-api.vercel.app/api/beats
-
-2. Use reponse in app
-
 ## To-Do
-- I plan on adding more routes and queries
-- Clean up data to reduce response time
+- Add Routes/queries: 
+    - Genre: Trap, Hyperpop, Dark
+    - Query later
+- Clean up scraped data to reduce response ms
