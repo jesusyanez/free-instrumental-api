@@ -10,11 +10,7 @@
   <p>Demo - Click the roll the dice button for a new beat</p>
  </a>
 
-## Example
-### Endpoint
-```
-/api/beats
-```
+## Usage
 ### HTTPS
 ```
 GET https://free-rap-beat-api.vercel.app/api/beats
