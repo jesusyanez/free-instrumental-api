@@ -1,19 +1,16 @@
-# [FREE] Type Beat (YouTube) API
+# About
 
-<p>It basically responds with youtube data of free type beats.</p>
-<p>It allows you to make cool embeds on your site with the data.</p>
+<p>This api serves randomly selected youtube video metadata. Right now it is comprised of 850+ videos whose metadata was collected from YouTube using a scraping script. The script searches for certain keywords, with "type beat" appended to the end of each, and filters video results to only store metadata on videos that are over a certain view count, such as 30k views.</p>
+<p>I used the api to make a random rap beat generator app.</p>
 </br>
-<a href="https://free-rap-beat-api.vercel.app/api/beats">
-  <p>API Link (see what it does when you reload)</p>
- </a>
-<a href="https://instrumental.vercel.app/">
-  <p>Demo - Click the roll the dice button for a new beat</p>
+<a href="https://free-instrumental-api.vercel.app/api/beats">
+  <p>API Link (reload for new random query)</p>
  </a>
 
 ## Usage
 ### HTTPS
 ```
-GET https://free-rap-beat-api.vercel.app/api/beats
+GET https://free-instrumental-api.vercel.app/api/beats
 ```
 ### JSON Response
 
@@ -41,7 +38,11 @@ GET https://free-rap-beat-api.vercel.app/api/beats
 ```
 
 ## To-Do
-- Add Routes/queries: 
-    - Genre: Trap, Hyperpop, Dark
-    - Query later
-- Clean up scraped data to reduce response ms
+- [X] Scrape Youtube search results
+  - [X] Use requests
+  - [X] No Google/YouTube API
+- [X] Create Rest API that sends random metadata(video) object
+- [ ] Automate scraper with cronjob
+- [ ] Add custom queries: 
+    - [ ] Genre: Trap, Hyperpop, Dark
+- [ ] Clean up scraped data to reduce bandwidth & response times 
