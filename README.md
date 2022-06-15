@@ -1,11 +1,25 @@
-# About
+# Key Features
+1. YouTube metadata scraping (w/o YouTube API)
+2. Next.js API w/ Serverless Functions
 
-<p>This api serves randomly selected youtube video metadata. Right now it is comprised of 850+ videos whose metadata was collected from YouTube using a scraping script. The script searches for certain keywords, with "type beat" appended to the end of each, and filters video results to only store metadata on videos that are over a certain view count, such as 30k views.</p>
-<p>I used the api to make a random rap beat generator app.</p>
-</br>
-<a href="https://free-instrumental-api.vercel.app/api/beats">
-  <p>API Link (reload for new random query)</p>
- </a>
+
+### Stack
+- JavaScript
+- Node
+- ~~Express~~
+- Next.js
+
+## Scraper
+- Scrapes youtube search for metadata and creates a JSON file.
+- Made an artists array and looped the script to search for each array item, so I would get one final array.
+- Quality Control: Filtered to only save data for videos over 30k views.
+- Variety: Right now the data includes metadata of 850+ YouTube videos (30+ artists).
+
+## API
+- Has one endpoint which returns a random object.
+- Used it for my [free rap beat app](https://rapgelo.vercel.app/)
+- At first I made it with TypeScript and Express.
+- Changed it to a Next.js API to utilize Serverless Functions on Vercel.com
 
 ## Usage
 ### HTTPS
@@ -41,8 +55,9 @@ GET https://free-instrumental-api.vercel.app/api/beats
 - [X] Scrape Youtube search results
   - [X] Use requests
   - [X] No Google/YouTube API
-- [X] Create Rest API that sends random metadata(video) object
-- [ ] Automate scraper with cronjob
+- [X] Create Rest API that sends random video metadata object
+- [ ] Automate scraper with cronjob maybe
 - [ ] Add custom queries: 
-    - [ ] Genre: Trap, Hyperpop, Dark
-- [ ] Clean up scraped data to reduce bandwidth & response times 
+    - [ ] Genres: Trap, Hyperpop, Dark
+    - [ ] Artists
+- [ ] Clean up scraped data to reduce API bandwidth & response times 
